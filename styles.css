@@ -109,7 +109,8 @@ footer {
 h3,
 p,
 ul,
-h4 {
+h4,
+button {
   margin-left: 2%;
   margin-right: 2%;
 }
@@ -154,13 +155,21 @@ h4 {
   margin-top: 13%;
 }
 
+.experience.exp-hide {
+  display: none;
+}
+
 @media (max-width: 431px) and (max-height: 933px) {
   .CV {
     flex-direction: column;
-    height: 300%;
+    height: 310%;
     margin: 0 10%;
     width: 80%;
     box-shadow: none;
+  }
+
+  footer {
+    bottom: 0;
   }
 
   .top-container {
@@ -168,6 +177,7 @@ h4 {
     width: 100%;
     flex-direction: column;
     justify-content: center;
+    background-color: #f4f4f4;
   }
 
   .left-container,
@@ -182,7 +192,7 @@ h4 {
 
   .image {
     position: relative;
-    height: 70%;
+    height: 652px;
     width: 50%;
     top: 5%;
     border-radius: 50%;
@@ -193,13 +203,11 @@ h4 {
     width: 100%;
     top: 20%;
     text-align: center;
-    background-color: aqua;
   }
 
   .h3 {
-    line-height: normal;
+    line-height: 100%;
     margin-top: 0;
-    font-size: 16px;
-    background-color: brown;
+    font-size: 12px;
   }
 }
