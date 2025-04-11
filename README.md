@@ -8,4 +8,5 @@ I used html to create the elements that are in the webpage
 I used CSS to careate the styleing of the webpage. For the positioning the the size of the conatainers i used flexbox.
 
 ### Javascript
-I ussed Javascript to create a button for showing more or less on the "erfarenhet" section.
+I used Javascript to create a button for showing more or less on the "erfarenhet" section.
+I also made a contact form that does not send anything
