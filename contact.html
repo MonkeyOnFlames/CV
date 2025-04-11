@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>CV</h1>
+      <nav class="navbar">
+        <ul class="links">
+          <li class="link"><a href="index.html">CV</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container">
+      <main>
+        <div class="top">
+          <div class="image">
+            <div class="profile-pic"></div>
+          </div>
+          <div class="top-info">
+            <h2 class="name">Kontakt formulär</h2>
+            <p class="form-text">
+              Detta formulär kan du använda om du inte når mig via telefon eller
+              epost. Jag rekommenderar inte att du gör det då detta formulär
+              inte skickas någonstans. Du borde testa min telefon igen istället.
+            </p>
+          </div>
+        </div>
+        <div class="form-container">
+          <form id="userForm">
+            <div class="form-group">
+              <label for="name">Namn:</label>
+              <input
+                type="text"
+                id="name"
+                placeholder="Var snäll och skriv ditt namn"
+              />
+              <div class="error" id="nameInput-error">
+                Namn är obligatoriskt!
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Epost:</label>
+              <input
+                type="email"
+                id="email"
+                placeholder="Var snäll och skriv din epost"
+              />
+              <div class="error" id="email-error">Epost är obligatoriskt!</div>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Meddelande:</label>
+              <textarea
+                type="text"
+                class="input-square"
+                id="message"
+                placeholder="Var snäll och skriv ditt meddelande"
+               ></textarea>
+              <div class="error" id="message-error">
+                Meddelande är obligatoriskt!
+              </div>
+            </div>
+
+            <div>
+              <button type="submit" id="submitBtn">Skicka</button>
+            </div>
+          </form>
+        </div>
+      </main>
+      <footer>&copy; 2025 CV. All rights reserved</footer>
+    </div>
+
+    <script src="form.js"></script>
+  </body>
+</html>

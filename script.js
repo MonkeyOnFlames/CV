@@ -1,3 +1,4 @@
+// show more/less button
 let showMore = false;
 const experience = document.getElementById("experience");
 const showBtn = document.getElementById("show-btn");
@@ -14,3 +15,4 @@ showBtn.addEventListener("click", function () {
     showBtn.innerHTML = "Visa mer";
   }
 });
+
